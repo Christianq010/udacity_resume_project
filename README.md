@@ -24,4 +24,4 @@ Repository includes the following files:
 
 * Responsive layout for different devices not done yet.
 
-##Hosted via Github Pages - https://christianq010.github.io/nanodegree_resume_Project/
+##Hosted via Github Pages - https://christianq010.github.io/udacity_resume_project/
