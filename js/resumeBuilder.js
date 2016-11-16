@@ -1,6 +1,5 @@
-/*
-Data Objects.
- */
+/*Data Objects.*/
+
 var bio = {
     "name": "Christiaan Quyn",
     "role": "Front-End Developer",
