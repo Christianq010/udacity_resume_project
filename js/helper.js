@@ -35,17 +35,18 @@ var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<a href="http://courses.wlv.ac.uk/course.asp?code=MA006H31UVD">%data%';
-var HTMLschoolDegree = ' -- %data%</a>';
+var HTMLschoolName = '<strong>%data%';
+var HTMLschoolDegree = ' -- %data%</strong>';
 var HTMLschoolDates = '<div class="date-text"><em>%data%</em></div>';
 var HTMLschoolLocation = '<div class="location-text"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> %data%</div>';
-var HTMLschoolMajor = '<em>Major: %data%</em><br>';
+var HTMLschoolMajor = '<em>Major: %data%</em>';
+var HTMLschoolUrl = '<div><a><u>%data%</u></a></div><br>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<a href="#">%data%';
-var HTMLonlineSchool = ' - %data%</a>';
+var HTMLonlineTitle = '<strong>%data%';
+var HTMLonlineSchool = ' - %data%</strong>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
-var HTMLonlineURL = '<a href="#">%data%</a><hr>';
+var HTMLonlineURL = '<div><a>%data%</a></div><hr>';
 
 var internationalizeButton = '<div class="btn btn-danger"<button>Internationalize</button></div>';
 var googleMap = '<div id="map"></div>';

@@ -15,8 +15,8 @@ var bio = {
         },
         "welcomeMessage": "Hi, I started programming while working as an HVAC Tech - pursuing my Engineering degree. I'm incredibly passionate about developing software and creating interesting user experiences over the web.",
         "skills": ["HTML5", "CSS3", "Javascript","Sass", "Bootstrap", "jQuery", "Git"],
-        "bioPic": "./assets/paper_img/sw-pic1.jpg"
-}
+        "biopic": "./assets/paper_img/sw-pic1.jpg"
+};
 
 var education = {
     "schools" : [
@@ -44,7 +44,7 @@ var education = {
             "url" : "https://teamtreehouse.com"
         }
     ]
-}
+};
 
 var work = {
     "jobs": [
@@ -63,7 +63,7 @@ var work = {
             "location": "Colombo 3, Sri Lanka"
         }
     ]
-}
+};
 
 var projects = {
     "projects": [
@@ -80,7 +80,7 @@ var projects = {
             "images": ["./assets/paper_img/smardt-chiller.jpg"]
         }
     ]
-}
+};
 
 bio.display = function () {
 
@@ -93,7 +93,7 @@ bio.display = function () {
     var formattedlinkedin = HTMLlinkedin.replace("%data%", bio.contacts.linkedIn);
     var formattedBlog = HTMLblog.replace("%data%", bio.contacts.blog);
     var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-    var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+    var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
     var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
     //Append variables onto the Page
@@ -135,8 +135,9 @@ education.display = function () {
         var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
         var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", school.location);
         var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", school.majors);
+        var formattedSchoolUrl = HTMLschoolUrl.replace("%data%", school.url);
 
-        $(".education-entry:last").append(formattedSchoolName, formattedDegree, formattedSchoolDates, formattedSchoolLocation, formattedSchoolMajor);
+        $(".education-entry:last").append(formattedSchoolName, formattedDegree, formattedSchoolDates, formattedSchoolLocation, formattedSchoolMajor, formattedSchoolUrl);
     });
         //repeated so Online Courses appears Below Main Education
         $("#education").append(HTMLschoolStart);
@@ -212,7 +213,7 @@ projects.display = function () {
     }
     $(".internationalize-btn").append(internationalizeButton);
 
-//Call all display functions to display on Page
+//Call all display functions to display Content on Page
 bio.display();
 education.display();
 work.display();
