@@ -1,85 +1,73 @@
 /*
 Data Objects.
  */
-
 var bio = {
-        "name" : "Christiaan Quyn",
-        "role" : "Front-End Developer",
-        "contacts" : {
-            "mobile" : "+94 777549947",
-            "email": "christianq010@gmail.com",
-            "github": "https://github.com/Christianq010",
-            "linkedIn" : "https://lk.linkedin.com/in/christianq010",
-            "blog" : "https://medium.com/@christianq010",
-            "location": "Colombo, Sri Lanka"
-        },
-        "welcomeMessage": "Hi, I started programming while working as an HVAC Tech - pursuing my Engineering degree. I'm incredibly passionate about developing software and creating interesting user experiences over the web.",
-        "skills": ["HTML5", "CSS3", "Javascript","Sass", "Bootstrap", "jQuery", "Git"],
-        "biopic": "./assets/paper_img/sw-pic1.jpg"
+    "name": "Christiaan Quyn",
+    "role": "Front-End Developer",
+    "contacts": {
+        "mobile": "+94 777549947",
+        "email": "christianq010@gmail.com",
+        "github": "https://github.com/Christianq010",
+        "linkedIn": "https://lk.linkedin.com/in/christianq010",
+        "blog": "https://medium.com/@christianq010",
+        "location": "Colombo, Sri Lanka"
+    },
+    "welcomeMessage": "Hi, I started programming while working as an HVAC Tech - pursuing my Engineering degree. I'm incredibly passionate about developing software and creating interesting user experiences over the web.",
+    "skills": ["HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "jQuery", "Git"],
+    "biopic": "./assets/paper_img/sw-pic1.jpg"
 };
 
 var education = {
-    "schools" : [
-        {
-            "name" : "University of Wolverhampton",
-            "location" : "BCAS City Campus, Colombo",
-            "degree" : "BEng (Hons)",
-            "majors" : ["Telecommunication Engineering", "Electronic Engineering"],
-            "dates" : "2016-2019",
-            "courses" : ["BTEC Diploma in Engineering Foundations", "HND in Telecom Eng"],
-            "url" : "http://courses.wlv.ac.uk/course.asp?code=MA006H31UVD"
-        }
-    ],
-    "onlineCourses" : [
-        {
-            "title" : "Udacity Front-End Developer Nanodegree",
-            "school" : "Udacity Inc.",
-            "dates" : "2016",
-            "url" : "https://www.udacity.com"
-        },
-        {
-            "title" : "Treehouse Front-End Developer Track",
-            "school" : "Treehouse Island Inc.",
-            "dates" : "2015-2016",
-            "url" : "https://teamtreehouse.com"
-        }
-    ]
+    "schools": [{
+        "name": "University of Wolverhampton",
+        "location": "BCAS City Campus, Colombo",
+        "degree": "BEng (Hons)",
+        "majors": ["Telecommunication Engineering", "Electronic Engineering"],
+        "dates": "2016-2019",
+        "courses": ["BTEC Diploma in Engineering Foundations", "HND in Telecom Eng"],
+        "url": "http://courses.wlv.ac.uk/course.asp?code=MA006H31UVD"
+    }],
+    "onlineCourses": [{
+        "title": "Udacity Front-End Developer Nanodegree",
+        "school": "Udacity Inc.",
+        "dates": "2016",
+        "url": "https://www.udacity.com"
+    }, {
+        "title": "Treehouse Front-End Developer Track",
+        "school": "Treehouse Island Inc.",
+        "dates": "2015-2016",
+        "url": "https://teamtreehouse.com"
+    }]
 };
 
 var work = {
-    "jobs": [
-        {
-            "employer": "Lanka Energy Conservation",
-            "title": "Trainee Engineer",
-            "description": "Trainee Mechanical Service Engineer / Tech for HVAC Equipment",
-            "dates" : "2015-present",
-            "location": "Colombo 4, Sri Lanka"
-        },
-        {
-            "employer": "Cinnamon Grand Hotel",
-            "title": "Engineering Apprentice",
-            "description": "Engineering Maintenance Technician for a variety of equipment including HVAC, Electrical and Mechanical",
-            "dates" : "2014-2015",
-            "location": "Colombo 3, Sri Lanka"
-        }
-    ]
+    "jobs": [{
+        "employer": "Lanka Energy Conservation",
+        "title": "Trainee Engineer",
+        "description": "Trainee Mechanical Service Engineer / Tech for HVAC Equipment",
+        "dates": "2015-present",
+        "location": "Colombo 4, Sri Lanka"
+    }, {
+        "employer": "Cinnamon Grand Hotel",
+        "title": "Engineering Apprentice",
+        "description": "Engineering Maintenance Technician for a variety of equipment including HVAC, Electrical and Mechanical",
+        "dates": "2014-2015",
+        "location": "Colombo 3, Sri Lanka"
+    }]
 };
 
 var projects = {
-    "projects": [
-        {
-            "title": "SMARDT-Powerpax Training at Melbourne Factory",
-            "dates": "Aug 2015",
-            "description": "Certification for Servicing of SMARDT Equipment",
-            "images": ["./assets/paper_img/smardt_globe.png"]
-        },
-        {
-            "title": "SMARDT Installations",
-            "dates": "2015-2016",
-            "description": "Installation of various SMARDT Chillers across the country",
-            "images": ["./assets/paper_img/smardt-chiller.jpg"]
-        }
-    ]
+    "projects": [{
+        "title": "SMARDT-Powerpax Training at Melbourne Factory",
+        "dates": "Aug 2015",
+        "description": "Certification for Servicing of SMARDT Equipment",
+        "images": ["./assets/paper_img/smardt_globe.png"]
+    }, {
+        "title": "SMARDT Installations",
+        "dates": "2015-2016",
+        "description": "Installation of various SMARDT Chillers across the country",
+        "images": ["./assets/paper_img/smardt-chiller.jpg"]
+    }]
 };
 
 bio.display = function () {
