@@ -6,12 +6,12 @@ replace the %data% placeholder text you see in them.
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';
 
-var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><a href="tel:0094777549947">%data%</a></li>';
-var HTMLemail = '<li class="flex-item"><a href="mailto:christianq010@gmail.com">%data%</a></li>';
-var HTMLlinkedin = '<li class="flex-item"><a href="%data%" target="_blank" class="btn btn-simple"><i class="fa fa-linkedin"></i></a></li>';
-var HTMLgithub = '<li class="flex-item"><a href="%data%" target="_blank" class="btn btn-simple"><i class="fa fa-github"></i></a></li>';
-var HTMLblog = '<li class="flex-item">%data%</li>';
+var HTMLcontactGeneric = '<li><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
+var HTMLmobile = '<li><a href="tel:0094777549947">%data%</a></li>';
+var HTMLemail = '<li ><a href="mailto:christianq010@gmail.com">%data%</a></li>';
+var HTMLlinkedin = '<li><a href="%data%" target="_blank" class="btn btn-simple"><i class="fa fa-linkedin"></i></a></li>';
+var HTMLgithub = '<li><a href="%data%" target="_blank" class="btn btn-simple"><i class="fa fa-github"></i></a></li>';
+var HTMLblog = '<li>%data%</li>';
 
 var HTMLlocation = '<em><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> %data%</em>';
 
@@ -19,7 +19,7 @@ var HTMLbioPic = '<img src="%data%" class="avatar img-circle img-no-padding img-
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
+var HTMLskills = '<li><span>%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<br><a href="#">%data%';

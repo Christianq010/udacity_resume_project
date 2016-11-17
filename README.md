@@ -1,6 +1,8 @@
 # Project Details
 Update a resume with new skills and projects as you progress along the Nanodegree Program.
 
+##Hosted via Github Pages - https://christianq010.github.io/udacity_resume_project/
+
 1. All of the HTML code needed to build the resume is stored in **js/helper.js** variables. The variable names indicate their function. 
 2. All Styling of these elements has been changed to suit the design but the data in the javaScript objects are appended or prepended into the appropriate location.
 
@@ -24,4 +26,4 @@ Repository includes the following files:
 
 * Responsive layout for different devices not done yet.
 
-##Hosted via Github Pages - https://christianq010.github.io/udacity_resume_project/
+#Project Successfully met Specifications
