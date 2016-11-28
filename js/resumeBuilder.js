@@ -57,15 +57,25 @@ var work = {
 
 var projects = {
     "projects": [{
-        "title": "SMARDT-Powerpax Training at Melbourne Factory",
-        "dates": "Aug 2015",
-        "description": "Certification for Servicing of SMARDT Equipment",
-        "images": ["./assets/paper_img/smardt_globe.png"]
-    }, {
-        "title": "SMARDT Installations",
-        "dates": "2015-2016",
-        "description": "Installation of various SMARDT Chillers across the country",
-        "images": ["./assets/paper_img/smardt-chiller.jpg"]
+        "title": "Portfolio Website",
+        "dates": "Sep 2016",
+        "description": "A Portfolio of Projects, created as part of the Udacity Nanodegree in Front-End Web Development",
+        "images": ["./assets/paper_img/album.svg"],
+        "url" : "https://github.com/Christianq010/udacity_personal-portfolio"
+    },
+    {
+        "title": "Resume project",
+        "dates": "Oct 2016",
+        "description": "An Online Resume, built on Javascript objects appended with new skills and information dynamically via jQuery",
+        "images": ["./assets/paper_img/curriculum.svg"],
+        "url" : "https://github.com/Christianq010/udacity_resume_project"
+    },
+    {
+        "title": "Classic Arcade Game",
+        "dates": "Nov 2016",
+        "description": "Recreate the classic arcade game Frogger using given visual assets and a game loop engine.",
+        "images": ["./assets/paper_img/video-game.svg"],
+        "url" : "#"
     }]
 };
 
@@ -182,6 +192,9 @@ projects.display = function () {
             var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
             $(".project-entry:last").append(formattedProjectImage);
         });
+
+        var formattedProjectUrl = HTMLprojectUrl.replace("%data%", project.url);
+        $(".project-entry:last").append(formattedProjectUrl);
     });
 };
 

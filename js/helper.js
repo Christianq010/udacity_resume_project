@@ -28,11 +28,13 @@ var HTMLworkDates = '<div class="date-text"><em>%data%</em></div>';
 var HTMLworkLocation = '<div class="location-text"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> %data%</div>';
 var HTMLworkDescription = '<p>%data%<hr></p>';
 
-var HTMLprojectStart = '<div class="project-entry col-md-6"></div>';
+var HTMLprojectStart = '<div class="project-entry col-md-4 text-center"></div>';
 var HTMLprojectTitle = '<a href="#">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectImage = '<img src="%data%">';
+var HTMLprojectImage = '<img src="%data%" class="project-image text-center img-responsive">';
+var HTMLprojectUrl = '<div class="project-link text-center"><a href="%data%"><i class="fa fa-github" style="font-size: 2em;"></i></a></div>';
+
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
 var HTMLschoolName = '<strong>%data%';
@@ -56,7 +58,7 @@ var googleMap = '<div id="map"></div>';
 The Internationalize Names challenge found in the lesson Flow Control from JavaScript Basics requires you to create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
 */
 $(document).ready(function() {
-  $('button').click(function() {
+  $('.internationalize-btn').click(function() {
     var $name = $('#name');
     var iName = inName($name.text()) || function(){};
     $name.html(iName);
