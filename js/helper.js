@@ -32,8 +32,8 @@ var HTMLprojectStart = '<div class="project-entry col-md-4 text-center"></div>';
 var HTMLprojectTitle = '<a href="#">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectImage = '<img src="%data%" class="project-image text-center img-responsive">';
-var HTMLprojectUrl = '<div class="project-link text-center"><a href="%data%"><i class="fa fa-github" style="font-size: 2em;"></i></a></div>';
+var HTMLprojectImage = '<img src="%data%" class="project-image img-responsive">';
+var HTMLprojectUrl = '<div class="project-link"><a href="%data%"><i class="fa fa-github" style="font-size: 2em;"></i></a></div>';
 
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
