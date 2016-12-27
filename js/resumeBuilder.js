@@ -12,7 +12,14 @@ var bio = {
         "location": "Colombo, Sri Lanka"
     },
     "welcomeMessage": "Hi, I started programming while working as an HVAC Tech - pursuing my Engineering degree. I'm incredibly passionate about developing software and creating interesting user experiences over the web.",
-    "skills": ["HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "jQuery", "Git"],
+    "skills": ["./assets/img/svg/html-5.svg",
+                "./assets/img/svg/css-3.svg",
+                "./assets/img/svg/javascript.svg",
+                "./assets/img/svg/sass.svg",
+                "./assets/img/svg/bootstrap.svg",
+                "./assets/img/svg/jquery.svg",
+                "./assets/img/svg/git.svg"
+                ],
     "biopic": "./assets/paper_img/sw-pic1.jpg"
 };
 
@@ -73,9 +80,9 @@ var projects = {
     {
         "title": "Classic Arcade Game",
         "dates": "Nov 2016",
-        "description": "Recreate the classic arcade game Frogger using given visual assets and a game loop engine.",
+        "description": "Recreated the classic Arcade game Frogger, using provided visual assets and game engine following Object Oriented Javascript principles.",
         "images": ["./assets/paper_img/video-game.svg"],
-        "url" : "#"
+        "url" : "https://github.com/Christianq010/Classic-Arcade-Game-Frogger_master"
     }]
 };
 

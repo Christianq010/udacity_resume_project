@@ -18,8 +18,8 @@ var HTMLlocation = '<em><span class="glyphicon glyphicon-map-marker" aria-hidden
 var HTMLbioPic = '<img src="%data%" class="avatar img-circle img-no-padding img-responsive">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
-var HTMLskills = '<li><span>%data%</span></li>';
+var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills"></ul>';
+var HTMLskills = '<img src="%data%" class="col-md-1 skills-svg img-responsive">';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<br><a href="#">%data%';
